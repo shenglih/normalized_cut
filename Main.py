@@ -1,8 +1,3 @@
-import time
-import numpy as np
-import random
-
-
 import numpy as np
 import scipy.linalg as la
 import scipy.sparse.linalg as sla
@@ -84,7 +79,7 @@ def discretization(X_tilde_ast, K, N):
 	return X_ast
 
 
-time0 = time.time()
+#time0 = time.time()
 
 print("Loading J, WT, WS, ...")
 
